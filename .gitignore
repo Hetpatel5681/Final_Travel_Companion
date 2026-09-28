@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large datasets
+datasets/
+data/
+*.csv
+*.xlsx
+*.xls
+*.jsonl
+
+# Temporary files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment/local files
+*.local
